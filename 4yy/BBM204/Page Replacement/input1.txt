@@ -1,0 +1,17 @@
+SetMemory 4
+setReplacement FIFO
+setSearchStructure BinarySearch
+Read a
+Read c
+Read a
+Read b
+Read k
+Read c
+Read d
+Read p
+Read y
+Read b
+Read p
+Read e
+Read t
+Read c

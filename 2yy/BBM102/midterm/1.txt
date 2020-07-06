@@ -1,0 +1,32 @@
+package com.company;
+
+class A{
+         private int f1=1;
+         int f2=2;
+         protected int f3=3;
+          public int f4=4;
+        }
+class B extends A{
+         A a= new A();
+         public int i =a.f4;
+         public void baslat(){System.out.println(i); System.out.println(f2);}
+        }
+class R {
+         int i = new A().f4;
+        public void baslat(){System.out.println(i);}
+        }
+
+public class Main {
+
+    public static void main(String[] args) {
+
+       A aa=new A();
+       B bb=new B();
+       R rr=new R();
+
+
+       bb.baslat();
+       rr.baslat();
+
+    }
+}

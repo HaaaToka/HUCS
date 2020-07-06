@@ -1,0 +1,101 @@
+#include<string.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+
+struct node {
+    int data;
+    struct node *right;
+    struct node *left;
+};
+struct node *root=NULL;
+
+void addNodetoBST(int data){
+    struct node *newNode = (struct node*)malloc(sizeof(struct node));
+    newNode->data=data;
+    newNode->left=newNode->right=NULL;
+    if(!root){
+        root=newNode;
+        printf("ahahah %d ",root->data);
+        return;
+    }
+    struct node *temp = root;
+    while(temp){
+        if(temp->data > data){if(!temp->left){ temp->left=newNode; break;} temp=temp->left;continue;}
+        else if(temp->data < data){if(!temp->right){temp->right=newNode; break;}temp=temp->right;continue;}
+        else{printf("SAME NODE DETECTION %d  ",temp->data);break;}
+    }
+    //printf("%d",newNode->data);
+}
+
+
+void inOrder(struct node *temp){
+    if(temp){
+        inOrder(temp->left);
+        printf("%d - ",temp->data);
+        inOrder(temp->right);
+    }
+}
+
+
+void preOrder(struct node *temp){
+    if(temp){
+        printf("%d - ",temp->data);
+        preOrder(temp->left);
+        preOrder(temp->right);
+    }
+}
+
+
+void postOrder(struct node *temp){
+    if(temp){
+        postOrder(temp->left);
+        postOrder(temp->right);
+        printf("%d - ",temp->data);
+    }
+}
+
+
+void destroy_tree(struct node *leaf){
+    if(leaf){
+        destroy_tree(leaf->left);
+        destroy_tree(leaf->right);
+        free(leaf);
+    }
+}
+
+
+int main(){
+    addNodetoBST(9);
+    addNodetoBST(6);
+    addNodetoBST(20);
+    addNodetoBST(8);
+    addNodetoBST(3);
+    addNodetoBST(4);
+    printf("HATCE");
+    printf("\n\n");
+
+    inOrder(root);
+    printf("\n");
+    preOrder(root);
+    printf("\n");
+    postOrder(root);
+    printf("\n\n");
+
+    destroy_tree(root);
+    root=NULL;
+
+
+   // printf("root data %d  \n",root->data);
+    printf("OKAN");
+    addNodetoBST(9);
+    addNodetoBST(6);
+    addNodetoBST(20);
+    addNodetoBST(8);
+    addNodetoBST(3);
+    addNodetoBST(4);
+    inOrder(root);
+    printf("\n");
+
+    return 0;
+}

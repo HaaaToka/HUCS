@@ -1,0 +1,33 @@
+1 fotoolar var,
+
+
+2----
+
+** A,B,C den kelimeler türetiliyor içinde AA olmayanlarýn sayýsý mýydý neydi. 
+cavabý hn=2h_(n-1)+2h_(n-2)
+
+** 2n tane insan var. bunlarýn arasýnda 2 li eþleþtirmeler yapýlýp fikstür oluþturuluyor kaç farklý fikstür olur.
+örneðin 2 adam olsun bunlardan sadece A1-A2 olur F1=1
+4 adam olsun bunlardan {A1-A2,A3-A4},{A1-A3,A1-A4},{A1-A4,A2-A3} þeklinde F2=3 olur Fn bul.
+
+** 1 tane üreten fonksionlu soru
+
+** LCS sorusu
+
+** nlogn sorusu-- bir dizi var. bu dizide abidikgubudik deðerini buludaz. abidikgubudik deðeri þöyle hesaplanýyor. 
+-bir Adizisi a1,a2,....,an þeklinde olsun.
+-a1'in abidikgubudik degeri Sum(absolute(a1-ai)) þeklindedir. yani kendi dýþýnda tüm elmeanlarla arasýndaki farkýn mutlak deðeri toplamý.
+- bunu bütün elemanlar için bulan nlogn de çalýþan algo yaz
+
+
+
+3-----------
+
+** full binary tree oluþturma sorusu.  cevapta kod yazyýon bir de oluþturma maliyeti 2n dion
+
+**megesortun deðiþtirilmiþ halini soruyor. merge sortta dizi 2 ye bölünüp ilerleniyor burda 4 e bölünerek ilerleniyor. parçalanmýþ listeleri birleþtirirken yaptýðý (merge) karþýlaþtýrma sayýsana an dersek. an için recursive relation yaz ve çöz
+
+** kendi bir algoritma yazmýþ onun recursive relationýný isytiyor.
+
+** sýralý bir dizide binary search ypan algo vermiþ. onun lefmost occurence a göre tekrar implement etmeni istiyor.
+

@@ -1,0 +1,253 @@
+(define count 5)
+(define sum 10)
+(if (not (= count 0))
+  (/ sum count)
+  0)
+-----------------------------------------
+
+(define (compare x y)
+   (cond
+     ((> x y) "x is greater than y")
+     ((< x y) "y is greater than x")
+     (else "x and y are equal")
+   )
+ )
+(compare 1 2)=> "y is greater than x"
+-------------------------------------------
+
+(define (member atm lis)
+(cond
+  ((null? lis) #f)
+  ((eq? atm (car lis)) #t)
+  (else (member atm (cdr lis)))
+))
+(display (member '5 '(1 3 4)))#f
+--------------------------------------------
+
+(define (equalsimp lis1 lis2)
+  (cond
+    ((null? lis1) (null? lis2))
+    ((null? lis2) #f)
+    ((eq? (car lis1) (car lis2))
+      (equalsimp (cdr lis1) (cdr lis2)))
+    (else #f)
+  )
+)
+(equalsimp '(1 2 3) '(1 2 4))=> #f
+-------------------------------------------
+
+(define (equal lis1 lis2)
+  (cond
+    ((not (list? lis1)) (eq? lis1 lis2))
+    ((not (list? lis2)) #f)
+    ((null? lis1) (null? lis2))
+    ((null? lis2) #f)
+    ((equal (car lis1) (car lis2))
+      (equal (cdr lis1) (cdr lis2)))
+    (else #f)
+  )
+)
+(equal '(1 2 (3)) '(1 2 (3)))=> #t
+-------------------------------------------
+
+(define (append lis1 lis2)
+  (cond
+    ((null? lis1) lis2)
+    (else (cons (car lis1) (append (cdr lis1) lis2)))
+  )
+)
+(append '(1) '(3 4))=> (1 3 4)
+---------------------------------------------
+
+(define (quadric_roots a b c)
+  (let (
+    (root_part_over_2a (/ (sqrt (- (* b b) (* 4 a c))) (* 2 a)))
+    (minus_b_over_2a (/ (- 0 b) (* 2 a)))
+	)
+    (display (+ minus_b_over_2a root_part_over_2a))
+    (newline)
+    (display (- minus_b_over_2a root_part_over_2a))
+  )
+)
+(quadric_roots 1 5 4)--> -1 \*n -4 
+------------------------------------------------
+
+(define (factorial n)
+  (if (= n 0)
+    1
+    (* n (factorial (- n 1)))
+  )
+)
+(factorial 5) -> 120
+---<<<<TAIL RECURSIVE>>>-------------
+
+(define (facthelper n factpartial)
+  (if (= n 0)
+    factpartial
+    (facthelper (- n 1) (* n factpartial))
+    )
+)
+
+(define (factorial n)
+  (facthelper n 1)
+)
+
+(factorial 5) => 120
+------------------------------------------------
+
+(define (compose f g) (lambda (x) (f (g x))))
+((compose car cdr) '((a b) c d)) -> c
+
+(define (third a_list)
+  ((compose car (compose cdr cdr)) a_list)
+)
+(third '(1 2 3 4 5)) -> 3
+----------------------------------------------
+
+(define (fun x) (+ x 1))
+(define (map fun lis)
+  (cond
+    ((null? lis) ())
+    (else (cons (fun (car lis)) (map fun (cdr lis))))
+  )
+)
+(map fun '(1 2 3)) => (2 3 4)
+-------
+(map (lambda (x) (* x x x)) '(2 3 4)) => (8 27 64)
+----------------------------------------------
+
+(define (adder lis)
+  (cond
+    ((null? lis) 0)
+    (else (eval (cons '+ lis)))
+  )
+)
+(adder '(1 2 3)) => 6
+------------------------------------------------
+
+(eval '(+ 1 2)) => 3
+-----------------------------------------------
+
+(define (deleteX x lis)
+  (cond
+    ((null? lis) '())
+    ((eq? x (car lis)) (deleteX x (cdr lis)))
+    (else (cons (car lis) (deleteX x (cdr lis))))
+  )
+)
+(define ls (list 1 5 3 4 5))
+(deleteX '3 ls) -> (1 5 4 5)
+----------------------------------------------
+
+(define (reverse lis)
+  (cond
+    ((null? lis) '())
+    (else (append (reverse (cdr lis)) (cons (car lis) '())))
+  )
+)
+(reverse '(1 2 3))
+----------------------------------------------
+(define (katkat kt lis x)
+  (display x)
+  (newline)
+  (if (eq? x kt)
+    (cond
+      ((null? lis) '())
+      (else (katkat kt (cdr lis) 0))
+    )
+
+    (cond
+      ((null? lis) '())
+      (else (append (cons (car lis) '()) (katkat kt (cdr lis) (+ x 1))))
+    )
+  )
+)
+(katkat 2 '(1 2 3 4 5 6 7 8) 0)  ->> (1 2 4 5 7 8)
+---------------------------------------------------
+
+(define (insert x lst)
+  (if (null? lst)
+    (list x)
+    (let ((y (car lst))
+          (ys (cdr lst)))
+          (if (<= x y)
+          (cons x lst)
+          (cons y (insert x ys))))
+  )
+)
+
+(define (insertionsort lst)
+  (if (null? lst)
+    '()
+    (insert (car lst)
+    (insertionsort (cdr lst)))
+  )
+)
+
+(define x (list 1 5 3 5 4 5))
+(insertionsort x) -> (1 3 4 5 5 5)
+----------------------------------------------------
+
+(define (powers x p)
+  (define (helper count power lis)
+    (if (= count 0)
+      lis
+      (helper (- count 1) (* power p) (append lis (list power)))
+    )
+  )
+
+  (if (< x 0)
+    (error "negative argument")
+    (helper x p ())
+  )
+)
+
+(powers 5 2)-->> (2 4 8 16 32)
+-----------------------------------------------
+
+(define (zip l1 l2)
+  (cond 
+    ((null? l1) '())
+    ((null? l2) '())
+    (else  (cons (list (car l1) (car l2)) (zip (cdr l1) (cdr l2)))
+    )
+  )
+)
+(zip '(1 2) '(4 5)) -> ((1 2) (4 5))
+
+(define (zip2 l1 l2)
+ (map list l1 l2)
+)
+(zip2 '(1 2) '(4 5)) -> ((1 2) (4 5))
+-------------------------------------------------
+
+(define (countAtoms lis)
+  (cond
+    ((null? lis) 0)
+    ((list? (car lis)) (+ (countAtoms (car lis)) (countAtoms (cdr lis))))
+    (else (+ 1(countAtoms (cdr lis))))
+  )
+)
+(countAtoms '((a b) ((c)) (((e))) e)) ->5
+(countAtoms '(((a)))) ->1
+-------------------------------------------------
+
+(define (delete x lis)
+  (cond
+    ((null? lis) '())
+    ((eq? x (car lis)) (delete x (cdr lis)))
+    (else (cons (car lis) (delete x (cdr lis))))
+  )
+)
+
+(define (insert-to-each i lis)
+  (map (lambda (x) (cons i x)) lis)
+)
+
+(define (permute lis)
+  (cond 
+    ((null? (cdr lis)) (list lis))
+    (else (apply append (map (lambda (x) (insert-to-each x (permute (delete x lis))))lis)))
+  )
+)
+(permute '(1 2 3 4))  -> permutasyon

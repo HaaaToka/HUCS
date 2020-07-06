@@ -1,0 +1,6 @@
+Ahmet	ahmet	ahmet123	04/25/2001	Meram Anadolu Lisesi
+Demet	demet	demet00	01/16/1999	Ankara Fen Lisesi
+Zeki	zeki	zeki01	08/16/1987	Kadýkoy Lisesi
+Gizem	gizem	gizem1	12/09/1997	Hacettepe Universitesi
+Utku	utku	utku99	10/06/1999	Bilkent Universitesi
+Hakan	hakan	hakan81	03/01/1981	Orta Dogu Teknik Universitesi	

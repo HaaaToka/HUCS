@@ -1,0 +1,115 @@
+#include <string.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+struct node{
+    int data;
+    struct node *next;
+};
+struct node *head=NULL;
+
+void addNode(int data){
+    struct node *newnode=(struct node*)malloc(sizeof(struct node));
+    newnode->data=data;
+    newnode->next=NULL;
+    if(!head){
+        head=newnode;
+        head->next=NULL;
+        return;
+    }
+    newnode->next=head;
+    head=newnode;
+}
+
+void insert(int data,int where){
+    struct node *newnode = (struct node*)malloc(sizeof(struct node));
+    newnode->data=data;
+    newnode->next=NULL;
+    struct node *temp=head;
+    while(--where){
+        temp=temp->next;
+    }
+    newnode->next=temp->next;
+    temp->next=newnode;
+
+}
+
+void delete(int where){
+    struct node *temp=head;
+    if(!temp){
+        printf("BOS LINKED");
+        return;
+    }
+    if(where==1){
+        head=head->next;
+    }
+    else {
+        struct node *prev = NULL;
+        while (--where) {
+            prev = temp;
+            temp = temp->next;
+        }
+        prev->next = temp->next;
+    }
+    free(temp);
+}
+
+void reverse(){
+    struct node *temp=NULL;
+    struct  node *reversed=NULL;
+    struct node *current=head;
+
+    while (current!=NULL){
+        temp=current;
+        current=current->next;
+        temp->next=reversed;
+        reversed=temp;
+    }
+
+    head=reversed;
+
+}
+
+void PrintLinked(){
+    struct node *temp=head;
+    if(!temp){
+        printf("BOS LINKED");
+        return;
+    }
+    while(temp!=NULL){
+        printf("%d - ",temp->data);
+        temp=temp->next;
+    }
+    printf("\n");
+}
+
+void PrintReverse(struct node *current){
+    if(current){
+        PrintReverse(current->next);
+        printf("%d - ",current->data);
+    }
+
+}
+
+
+main(){
+    addNode(1);
+    addNode(2);
+    addNode(3);
+    addNode(4);
+    addNode(5);
+    PrintLinked();
+
+    insert(77,3);
+    PrintLinked();
+
+    reverse();
+    PrintLinked();
+
+    delete(1);
+    PrintLinked();
+
+    PrintReverse(head);
+
+    return 0;
+}

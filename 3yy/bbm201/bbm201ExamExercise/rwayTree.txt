@@ -1,0 +1,69 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+#define R 256
+
+typedef struct Node
+{
+    int value;
+    struct Node *next[R];
+}Node;
+
+Node *createNode() //initializing a new node
+{
+    Node *pNode = (Node*) malloc(sizeof(Node));
+    int i;
+    if(pNode)
+    {
+        for(i=0;i<R;i++)
+        {
+            pNode->next[i] = NULL;
+        }
+    }
+    return pNode;
+}
+
+void put(Node**x, char *key, int val, int d)
+{
+    if(*x == NULL)
+    {
+        *x = createNode(); //trie is empty
+    }
+    if(d==strlen(key)) {(*x)->value = val; return;}
+    //all characters are put into the trie.Value of key is addded.
+
+    char c = key[d]; //dth character of key string
+    put(&((*x)->next[c]), key, val, d+1); //call recursively to add next characters of string
+}
+
+int get(Node *x, char *key, int d)
+{
+    if(x==NULL){return -1;} //-1 refers no match
+    if(d==strlen(key)){return x->value;}
+    char c= key[d];
+    return get(x->next[c], key,d+1);
+}
+
+int main()
+{
+    Node *root = NULL;
+    char myname[10] = "meric";
+    char bircisim[30] = "bircisimyaklasiyorefendim";
+    char yourname[10] ="kimsinsen";
+    char cik[20] = "cikdisariciik";
+    char an[10]="ana";
+    put(&root, myname, 1, 0);
+    put(&root, bircisim, 2, 0);
+    put(&root, yourname, 3, 0);
+    put(&root, cik, 4, 0);
+    put(&root, an,5,0);
+    printf("Key of myname: %s, Value of myname: %d\n",myname, get(root, myname, 0));
+    printf("Key of bircisim: %s, Value of bircisim: %d\n", bircisim ,get(root, bircisim, 0));
+    printf("Key of yourname: %s, Value of yourname: %d\n", yourname, get(root, yourname, 0));
+    printf("Key of cik: %s, Value of cik: %d\n",cik, get(root, cik, 0));
+    printf("Key of cik: %s, Value of cik: %d\n","okan", get(root, "okan", 0));
+    printf("Key of cik: %s, Value of cik: %d\n","cik", get(root, "cikdisariciik", 0));
+    printf("%d rootValue\n",root->value);
+    printf("%d anan",root->next['a']->next['n']->next['a']->value);
+}

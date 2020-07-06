@@ -1,0 +1,1 @@
+harun ve kayhan hoca her sene soru havuzundan rastgele soruları soruyor

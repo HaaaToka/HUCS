@@ -1,0 +1,27 @@
+package com.company;
+
+class Ata{
+    public Ata(){System.out.println(" Ata-default ");}
+    public Ata(String str){System.out.println(" Ata - str: "+str);}
+    public Ata(int a){System.out.println(" Ata - a "+a);}
+}
+class A extends Ata{
+    public A(){System.out.println("A-default ");}
+    public A(int a){super(a);System.out.println(" A-a "+a);}
+}
+class B extends Ata{
+    public B(String str){super("B'den "+str);System.out.println("B-str "+str);}
+    public B(){this(" default "); System.out.println(" B-default ");}
+}
+class C extends B{}
+
+
+public class Main {
+
+    public static void main(String[] args) {
+        Ata ata = new C();
+        A a=new A(3);
+        B b = new B();
+
+    }
+}

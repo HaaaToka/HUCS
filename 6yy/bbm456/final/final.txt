@@ -1,0 +1,48 @@
+4 soru vardý.
+
+
+1 -->> Replay attack'ý anlatan uzun bir soru var.
+
+A--- A,B,E[Ka,R]---> Server
+Server--- E[Kb,R]--->A
+A---E[R,M], E[Kb,R]---->B  
+
+bu iletiþim protokolu veriliyor ve replay atak ile bir hacker'ýn E[Ka,R] ve E[R,M]'yi eldeediyor. hacker'ýn Nasýl M yi elde ediceðini anlat diyor soruda.
+
+Hacker kendini A gibi gösterip Server'la iletiþime geçiyor.
+
+H--- A,Z,E[Ka,R]---->Server
+Server --- E[Kz,R]---> H  
+
+authentication sorunundan dolayý oluyor bunlar. Artýk Hacker Message M ye ulaþýr.
+
+
+
+2 -->> RSA sorusu, receiver sender var,, C=M mod n M=Cmodn ile ilgili bir soru
+
+3 -->> ATM sorusu. 
+
+A'nýn kullanýcý adý N, þifresi P
+Server R generatliyo
+
+A---N--->Server
+A<---R---Server
+A--->X=Hash(P)XORHash(R)-->Server
+
+Server da Y=Hash(P)XORHash(R) hesaplýyor. X=Y ise oturum isni veriyor.
+
+Hata var mý Varsa nasýl çözülür?
+
+Hata X=Hash(P) XOR Hash(R)'de var. 
+Araya giren saldýrgan N,R ve X elde eder. Hangi Hash kullanýldýðýný biliyoruz.
+Hr XOR X = Hp XOR Hr XOR Hr yaparak her iki tarafýn XOR Hr yaparýz. Hr XOR Hr = 1 ve Hp XOR 1 = Hp dir. BU þekilde Hp yi de elde ettik. BUndan sonra A gibi görünüp iþlemler ypaabilir. 
+
+Bu sorunu þu þekilde çözebiliriz. X=Y=Hash(R XOR P) yaparak
+
+
+4 -->> Bu soruda 5 farklý küçük sorucuk vardý. 
+a)) þekil vermiþ bu þekilde authentication olur mu diordu. (cavap Hayýr)
+b)) RSA ile
+c)) one time pad sorusu
+d)) mono alfebatik sorusu (50!)
+e)) Public Key Encryption(RSA, ECC..) mi iyi Private Key Encription(Cipher lar felan) hangisi daha iyi

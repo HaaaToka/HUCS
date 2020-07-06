@@ -1,0 +1,12 @@
+Ahmet Utku	ahmet	ahmet12	04/25/2001	Meram Anadolu Lisesi	Single
+Demet Akbag	demet	demet00	01/16/1999	Ankara Fen Lisesi	In relationship	
+Zeki Öztürk	zeki	zeki01	08/16/1987	Kadikoy Lisesi	Divorced
+Gizem Kocadag	gizem	gizem1	12/09/1997	Hacettepe Universitesi	Single
+Utku Anil	utku	utku99	10/06/1999	Bilkent Universitesi	Complicated
+Hakan Kocakulak	hakan	hakan81	03/01/1981	Orta Dogu Teknik Universitesi	Single
+Selman Bozkir	selman	selo12	11/12/1983	Hacettepe Üniversitesi	Single
+Hamdi Karayagiz	hamdi	xy253	04/02/1987	Osmangazi Üniversitesi	Divorced
+Aylin Yuksel	aylin	45ayl2	03/12/1998	Besiktas Lisesi	Single
+Sevda Karaca	sevda	g4256	19/01/1980	Marmara Universitesi	Complicated
+Murat Özbayir	murat	murat2	06/08/1974	Ankara Universitesi	Single
+Necdet Emin	necdet	neco34	11/10/1982	Ege Üniversitesi	In relationship

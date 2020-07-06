@@ -1,0 +1,188 @@
+#include<string.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+typedef struct node{
+    int vertex;
+    struct node *next;
+}node;
+
+typedef struct graph{
+    int verticesCount;
+    int *visited;
+    struct node ** adjList;
+}graph;
+
+typedef struct queue{
+    int count;
+    int *items;
+    int front;
+    int rear;
+}queue;
+
+queue* createQueue(int size) {
+    queue* q = (queue *)malloc(sizeof(queue));
+    q->items=(int *)malloc(sizeof(int)*size);
+    q->count=size;
+    q->front = -1;
+    q->rear = -1;
+    return q;
+}
+
+int isEmpty(queue* q) {
+    if(q->rear == -1)
+        return 1;
+    else
+        return 0;
+}
+
+void enqueue(queue* q, int value){
+    if(q->rear == q->count -1)
+        printf("\nQueue is Full!!");
+    else {
+        if(q->front == -1)
+            q->front = 0;
+        q->rear++;
+        q->items[q->rear] = value;
+    }
+}
+
+int dequeue(queue* q){
+    int item;
+    if(isEmpty(q)){
+        printf("Queue is empty");
+        item = -1;
+    }
+    else{
+        item = q->items[q->front];
+        q->front++;
+        if(q->front > q->rear){
+            q->front = q->rear = -1;
+        }
+    }
+    return item;
+}
+
+void visitZeror(graph *g){
+    int i;
+    for(i=0;i<g->verticesCount;i++){
+        g->visited[i]=0;
+    }
+}
+
+graph * createGraph(int vertices){
+    graph *g = (graph *)malloc(sizeof(graph));
+    g->verticesCount=vertices;
+    g->adjList = (node **)malloc(sizeof(node *)*vertices);
+    g->visited = (int *)malloc(sizeof(int)*vertices);
+    int i;
+    for(i=0;i<vertices;i++){
+        g->adjList[i]=NULL;
+        g->visited[i]=0;
+    }
+    return g;
+}
+
+node * createNode(int w){
+    node *q = (node *)malloc(sizeof(node));
+    q->next = NULL;
+    q->vertex = w;
+    return q;
+}
+
+void addEdge(graph *gra,int v,int w){
+    node *nw = createNode(w);
+    nw->next=gra->adjList[v];
+    gra->adjList[v]=nw;
+
+    /*nw=createNode(v);
+    nw->next = gra->adjList[w];
+    gra->adjList[w]=nw;*/
+}
+
+void printGraph(graph *gra){
+    int i;
+    for(i = 0;i<gra->verticesCount;i++){
+        node * temp=gra->adjList[i];
+        printf("\n Adj List Vertex %d \t",i);
+        while(temp!=NULL){
+            printf("%d -> ",temp->vertex);
+            temp=temp->next;
+        }
+        printf("\n");
+    }
+}
+
+void DFS(graph *g,int current){
+    node *p = g->adjList[current];
+    printf("%d ",current);
+    g->visited[current]=1;
+    while (p!=NULL){
+        current=p->vertex;
+        if(!g->visited[current])
+            DFS(g,current);
+        p=p->next;
+    }
+}
+
+void BFS(graph *g,int start){
+
+    queue *q = createQueue(g->verticesCount);
+    g->visited[start]=1;
+    enqueue(q,start);
+    while (!isEmpty(q)){
+        int cur = dequeue(q);
+        printf("%d->",cur);
+
+        node *temp = g->adjList[cur];
+
+        while (temp){
+            int adjVertex = temp->vertex;
+            if(!g->visited[adjVertex]){
+                g->visited[adjVertex]=1;
+                enqueue(q,adjVertex);
+            }
+            temp=temp->next;
+        }
+    }
+
+}
+
+
+int main() {
+
+    graph *graph = createGraph(13);
+
+    addEdge(graph,0,1);
+    addEdge(graph,0,5);
+    addEdge(graph,2,0);
+    addEdge(graph,2,3);
+    addEdge(graph,3,5);
+    addEdge(graph,3,2);
+    addEdge(graph,4,3);
+    addEdge(graph,4,2);
+    addEdge(graph,5,4);
+    addEdge(graph,6,9);
+    addEdge(graph,6,4);
+    addEdge(graph,6,8);
+    addEdge(graph,6,0);
+    addEdge(graph,7,6);
+    addEdge(graph,7,9);
+    addEdge(graph,8,6);
+    addEdge(graph,9,11);
+    addEdge(graph,9,10);
+    addEdge(graph,10,12);
+    addEdge(graph,11,4);
+    addEdge(graph,11,12);
+    addEdge(graph,12,9);
+
+    printGraph(graph);
+
+    DFS(graph,0);
+    visitZeror(graph);
+    printf("\n\n");
+    BFS(graph,0);
+
+    return 0;
+}

@@ -1,0 +1,26 @@
+
+Questions That Will Probably Be Asked Frequently:
+ 
+Q: Can we use ___________ (insert here any built-in function that comes to your mind)?
+A: If something is not explicitly forbidden in the Assignment Handout, it means you can use it. I don’t care how you solve a problem, as long as your solution works. So if you find an easier way to solve something, good for you!
+ 
+Q: Will you test our code with different inputs/input sizes/file names/etc.?
+A: Yes, I will. Your code should be able to solve the same problem no matter what the input files or values are. You are expected to parse the input file names as arguments from the command-line. The order of input files passed as arguments will stay the same as stated in the Assignment Handout.
+ 
+ 
+Thoughts That May Cross Your Mind:
+ 
+T: This assignment is too hard/complicated. I can’t do this.
+A: No it is not. And yes, you can. Trust me. YOU CAN. All you need to do is start immediately, work every day even if only for half an hour, make one step at a time, and most importantly: do not give up! When you get stuck, ask for advice on how to proceed. When you get really stuck, don’t push yourself. Go out for a walk, play some sports or participate in some other physical activity (clean you room perhaps?). It will help you clear your mind, so that next time you sit at the computer, you can attack your problem from a different angle. Try to enjoy working on this assignment to keep yourself motivated.
+ 
+T: I have a problem/question regarding the assignment. Let me post a private question to the TAs so that I don’t get embarrassed in front of my classmates in case my question is silly.
+A: Do not do this! There is no shame in not knowing and asking questions in your quest to learn. There is no such thing as a stupid question. If you don’t understand something (yet), chances are some of your other classmates have the same problem. So don’t be shy or selfish. Ask your question openly, so that other students can both help you and benefit from the answer. It will also help your TAs avoid answering the same questions multiple times.
+ 
+T: I have a problem/question regarding the assignment. Let me ask my question without checking first if the same or a similar question has already been answered on Piazza.
+A: Do not do this! You may have noticed that some questions have been asked multiple times for the last few days. This will only prove that you are not following the discussion on Piazza, and even worse, that you don’t care about your classmates’ and TAs’ valuable time. Notice that there are class folders listed in the upper left corner on Piazza. You can use them to filter posts that are relevant to a specific topic (assignment3 in this case). Please follow and read the posts on Piazza in order to be aware of the discussion and questions that have already been answered.
+ 
+That said, I would like to thank the students who have been vigilant in pointing out the duplicate questions and providing links to the original ones.
+ 
+Good luck with the assignment! :)
+ 
+Selma

@@ -1,0 +1,39 @@
+package com.company;
+
+class Ethane extends Poly{
+    public void method1(){System.out.println("Et 1");}
+    public void method3(){System.out.println("Et 3");method1();}
+}
+class Methane extends Ethane{
+    public void method2(){System.out.println("Met 2");super.method2();}
+}
+class Carbon{
+    public void method1(){System.out.println("Carbon 1");}
+}
+class Poly extends Carbon{
+    public void method2(){method1();System.out.println("Poly 2");}
+}
+
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        Poly v1 = new Ethane();
+        Ethane v2 = new Methane();
+        Carbon v3 = new Poly();
+        Object v4 = new Carbon();
+
+        v1.method1();
+        v1.method2();
+        //((Ethane) v1).method3();
+        v2.method1();
+        v2.method2();
+        v2.method3();
+        v3.method1();
+        //v4.method1();
+        ((Carbon) v4).method1();
+        //((Poly) v4).method2();
+
+    }
+}

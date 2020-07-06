@@ -1,0 +1,24 @@
+23
+A 1 a
+A 1 b
+A 1 c
+A 1 d
+I 1 e
+I 1 f
+I 1 g
+S 1 G
+S 1 G
+S 1 G
+S 1 G
+S 1 G
+S 1 G
+I 2 x
+I 2 y
+I 2 z
+I 2 h
+O G G
+O G G
+O G G
+O G G
+O G G
+O G G

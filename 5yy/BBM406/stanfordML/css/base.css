@@ -1,0 +1,520 @@
+BODY,TD, TH { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #333333; line-height: 18px; font-weight: normal}
+
+td form { display: inline; }
+
+B { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #333333; font-weight: bold}
+
+sidebar,.sidebar { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #333333;  line-height: 14px; font-weight: normal}
+B.sidebar { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #333333; font-weight: bold}
+
+B.title { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 20px; color: #FFFFFF; font-weight: normal}
+H1,B.H1 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 16px; color: #333333; font-weight: bold}
+H2,B.H2 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px; color: #333333; font-weight: bold}
+H3,B.H3 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px; color: #333333; font-weight: bold}
+H4,B.H4 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #333333; font-weight: bold}
+
+title,.title { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 22px; color: #FFFFFF; font-weight: normal}
+subtitle,.subtitle { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px; color: #990000; font-weight: bold}
+subtitle2,.subtitle2 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #990000; font-weight: bold}
+subtitle3,.subtitle3 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 1.2em; color: #990000; font-weight: bold}
+subtitle4,.subtitle4 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: .85em; color: #222222; font-weight: bold}
+subtitle5,.subtitle5 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px; color: #000000; font-weight: bold}
+subtitle6,.subtitle6 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px; color: #999999; font-weight: bold}
+
+.homestorylarge { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; line-height: 16px; color: #333333; font-weight: normal}
+A.homestorylarge { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; line-height: 16px; font-style: normal; color: #BF6900; text-decoration: none}
+A.homestorylarge:Hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; line-height: 16px; font-style: normal; color: #990000; text-decoration: none}
+
+.homestory { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; line-height: 10px; color: #333333; font-weight: normal}
+A.homestory { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; line-height: 10px; font-style: normal; color: #BF6900; text-decoration: none}
+A.homestory:Hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; line-height: 10px; font-style: normal; color: #990000; text-decoration: none}
+
+
+.homestory2 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; line-height: 14px; color: #333333; font-weight: normal}
+A.homestory2 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; line-height: 14px; font-style: normal; color: #BF6900; text-decoration: none}
+A.homestory2:Hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; line-height: 14px; font-style: normal; color: #990000; text-decoration: none}
+
+.homestorybold { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; line-height: 14px; color: #333333; font-weight: bold}
+A.homestorybold { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; line-height: 14px; font-style: normal; color: #BF6900; text-decoration: none}
+A.homestorybold:Hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; line-height: 14px; font-style: normal; color: #990000; text-decoration: none}
+
+
+button,.button,A.button { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #FFFFFF; font-weight: bold}
+A.button:Hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #333333; font-weight: bold; background-image:  url('http://see.stanford.edu/see/uiparts/btn_center.gif');background-repeat: repeat-x; } 
+
+.profilecaption { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; line-height: 12px; color: #333333; font-weight: normal}
+
+A.sidebar { font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 11px; font-style: normal; color: #BF6900; text-decoration: none}
+A.sidebar:Hover { font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 11px; font-style: normal; color: #990000; text-decoration: underline}
+
+.sidebarphoto {  border-color: #990000; border: 2px solid #990000; float: center;}
+.normalphoto {  border-color: #990000; border: 1px solid #990000; float: center;}
+.homephoto {  border-color: #996600; border: 1px solid #996600; float: center;}
+
+news,.news,P.news,BR.news { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #FFFFFF; font-weight: normal}
+B.news { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #FFFFFF; font-weight: bold}
+
+A.news { font-family: Verdana, Helvetica, sans-serif; font-size: 11px; font-style: normal; line-height: 9px;  font-weight: bold; color: #FDDF8D; text-decoration: none}
+A.news:Hover { font-family: Verdana, Helvetica, sans-serif; font-size: 11px; line-height: 9px; font-style: normal; font-weight: bold; color: #FFFFFF; text-decoration: none}
+
+
+BR.menuspace {font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 1px; text-decoration: none}
+BR.navline {font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 1px; color: #01589C; text-decoration: none}
+BR.line3 {font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 3px; text-decoration: none}
+
+A { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; color: #BF6900; text-decoration: none}
+A:Hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; color: #990000; text-decoration: none}
+
+.header { font-family: Verdana, Helvetica, sans-serif; font-size: 9px; font-style: normal; line-height: 9px; font-weight: bold; color: #999999; text-decoration: none}
+A.header { font-family: Verdana, Helvetica, sans-serif; font-size: 9px; font-style: normal; line-height: 9px;  font-weight: bold; color: #FDDF8D; text-decoration: none}
+A.header:Hover { font-family: Verdana, Helvetica, sans-serif; font-size: 9px; line-height: 9px; font-style: normal; font-weight: bold; color: #FFFFFF; text-decoration: none}
+
+td.sitemapContainer li, .sitemap { font-family: Verdana, Helvetica, sans-serif; font-size: 9px; font-style: normal; line-height: 16px; font-weight: bold; color: #333333; text-decoration: none}
+td.sitemapContainer li a, A.sitemap { font-family: Verdana, Helvetica, sans-serif; font-size: 9px; font-style: normal; line-height: 16px; font-weight: bold; color: #BF6900; text-decoration: none}
+td.sitemapContainer li a:hover, A.sitemap:Hover { font-family: Verdana, Helvetica, sans-serif; font-size: 9px; font-style: normal; line-height: 16px; font-weight: bold; color: #990000; text-decoration: none}
+
+td.sitemapContainer h3, .sitemap2 { font-family: Verdana, Helvetica, sans-serif; font-size: 11px; font-style: normal; line-height: 22px; font-weight: bold; color: #333333; text-decoration: none}
+td.sitemapContainer h3 a, A.sitemap2 { font-family: Verdana, Helvetica, sans-serif; font-size: 11px; font-style: normal; line-height: 22px; font-weight: bold; color: #BF6900; text-decoration: none}
+td.sitemapContainer h3 a:hover, A.sitemap2:Hover { font-family: Verdana, Helvetica, sans-serif; font-size: 11px; font-style: normal; line-height: 22px; font-weight: bold; color: #990000; text-decoration: none}
+
+td.sitemapContainer h4, .sitemap3 { font-family: Verdana, Helvetica, sans-serif; font-size: 10x; font-style: normal; line-height: 19px; font-weight: bold; color: #333333; text-decoration: none}
+td.sitemapContainer h4 a, A.sitemap3 { font-family: Verdana, Helvetica, sans-serif; font-size: 10px; font-style: normal; line-height: 19px; font-weight: bold; color: #BF6900; text-decoration: none}
+td.sitemapContainer h4 a:hover, A.sitemap3:Hover { font-family: Verdana, Helvetica, sans-serif; font-size: 10px; font-style: normal; line-height: 19px; font-weight: bold; color: #990000; text-decoration: none}
+
+A.menunav { font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 12px; line-height: 17px; font-style: bold; font-weight: bold; color: #BF6900; text-decoration: none}
+A.menunav:Hover { font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 12px; line-height: 17px; font-style: bold; font-weight: bold; color: #990000; text-decoration: none}
+
+A.menunavbold { font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 12px; line-height: 17px; font-style: bold; font-weight: bold; color: #990000; text-decoration: none}
+A.menunavbold:Hover { font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 12px; line-height: 17px; font-style: bold; font-weight: bold; color: #BF6900; text-decoration: none}
+
+A.menunavwhite { font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 12px; line-height: 17px; font-style: bold; font-weight: bold; color: #FFFFFF; text-decoration: none}
+A.menunavwhite:Hover { font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 12px; line-height: 17px; font-style: bold; font-weight: bold; color: #BF6900; text-decoration: none}
+
+A.menunavwhitebold { font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 12px; line-height: 17px; font-style: bold; font-weight: bold; color: #BF6900; text-decoration: none}
+A.menunavwhitebold:Hover { font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 12px; line-height: 17px; font-style: bold; font-weight: bold; color: #FFFFFF; text-decoration: none}
+
+A.menusubnav { font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 12px; font-style: normal; font-weight: normal; color: #BF6900; text-decoration: none}
+A.menusubnav:Hover { font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 12px; font-style: normal; font-weight: normal; color: #990000; text-decoration: none}
+
+A.menusubnavbold { font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 12px; font-style: normal; font-weight: normal; color: #990000; text-decoration: none}
+A.menusubnavbold:Hover { font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 12px; font-style: normal; font-weight: normal; color: #BF6900; text-decoration: none}
+
+A.menusubsubnav { font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 11px; font-style: normal; font-weight: normal; color: #BF6900; text-decoration: none}
+A.menusubsubnav:Hover { font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 11px; font-style: normal; font-weight: normal; color: #990000; text-decoration: none}
+
+A.dhtmlmenusubnav { font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 11px; line-height: 16px; font-style: normal; font-weight: normal; color: #BF6900; text-decoration: none}
+A.dhtmlmenusubnav:Hover { font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 11px; line-height: 16px; font-style: normal; font-weight: normal; color: #990000; text-decoration: none}
+
+
+copyrighthome,.copyrighthome { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; color: #FFFFFF; font-weight: normal}
+copyright,.copyright { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; color: #666666; font-weight: normal}
+A.copyright  { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; font-style: normal; color: #FDDF8D; text-decoration: none}
+A.copyright:Hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; font-style: normal; color: #666666; text-decoration: none}
+A.copyrighthome  { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; font-style: normal; color: #FDDF8D; text-decoration: none}
+A.copyrighthome:Hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; font-style: normal; color: #FFFFFF; text-decoration: none}
+
+UL.noindent {display: block; margin-left: 0; margin-top: 0; padding-left: 0; padding-top: 0; list-style-type: none; padding: 0; margin: 0;}
+LI.noindent {margin-left: 0; margin-top: 0; padding-left: 0; padding-top: 0; background-image: url(http://see.stanford.edu/soe.stanford.edu/uiparts/uiparts/gold_bullet.gif); background-repeat: no-repeat;  padding-left: 1.6em; background-position: top left;}
+
+span.noindent {display: block; margin-left: 0; margin-top: 0; padding-left: 0; padding-top: 0; list-style-type: none; padding: 0; margin: 0;}
+
+
+/* 2004-10-25 added for sitemap - HS */
+td.sitemapContainer {
+	width: 50%;
+	font-size: 100%;
+	padding-left: 20px;
+	vertical-align: top;
+	}
+td.sitemapContainer h2 {
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	}
+td.sitemapContainer h3 {
+	margin: .5em 0 0 0;
+	}
+td.sitemapContainer h4 {
+	margin: 0;
+	}	
+td.sitemapContainer ul {
+	list-style-type: none;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	}
+form#feedback input, form#feedback textarea {
+	width: 30em;
+	}
+form#feedback input.error {
+	background-color: yellow;
+	color: black;
+	font-weight: bold;
+	}
+form#feedback input.corr {
+	background-color: white;
+	color: black;
+	font-weight: normal;
+	}	
+button.sub {
+	background-color: white;
+	color: white;
+	border: 0;
+	}
+/* 2004-12-07 added by HS */
+table#results {
+	border: 1px solid white;
+	border-collapse: collapse;
+	background-color: #F7F5F2;
+	}
+table.pers {
+	border: 1px solid white;
+	border-collapse: collapse;
+	background-color: #E9E2D9;	
+	}
+table#results td, table.pers td {
+	border: 1px solid white;
+	padding: 5px;
+	}
+table.profile {
+	border-collapse: collapse;
+	background-color: #F7F5F2;
+	}
+table.profile tr th, table.profile tr td {
+	vertical-align: top;
+	}
+table.profile th {
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 10px;
+	border: none;
+	color: black;
+	font-size: 11px;
+	}
+table.profile th.subtitle5 {
+	font-size: 14px;
+	}
+table.profile th.subtitle3 {
+	color: #990000;
+	font-size: 14px;
+	}
+table.profile #persSecondary th.subtitle3 {
+	color: #990000;
+	font-size: 12px;
+	}	
+table.profile td {
+	border: none;
+	padding: 6px;
+	}
+table.profile table th {	
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-size: 11px;
+	}
+table.profile table td {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-size: 12px;
+	}
+table.profile table table td {
+	margin: 0;
+	padding: 0;
+	border: none;
+	}
+#persSecondary th, #persSecondary td {
+	padding: 5px 10px;
+	margin: 0;
+	}
+/* use this if only one row's cells within a table need the
+   1-pixel white separation */
+tr.sep td {
+	border: 1px solid white;
+	}
+tr.sep td table td {
+	border: none;
+	}	
+.right {
+	text-align: right;
+	}
+/* added for dbForms/new_person.htm */
+.imageButton {
+	background: transparent;
+	border: none;
+	}
+/* added to fix descender bleed in sectionName */
+td#sectionName {
+	vertical-align: bottom;
+	padding: 0 0 8px 10px;
+	background-color: #990000;
+	height: 63px;
+	font-weight: normal;
+	color: #ffffff;
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 20px;	
+	}
+/*
+td.sidebar b {
+	display: block;
+	color: #ffffff;
+	background-color: #333333;
+	padding: 2px 0 2px 5px;
+	}	
+td.sidebar li {
+	margin: 4px 0;
+	}
+.newTest {
+	background-color: #ffffff;
+	}
+	*/
+	
+div#alphaAnchors a {
+	font-size: 12px;
+	}
+	
+.pubname {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #333333;
+	font-size: 9px;
+	font-style:normal;
+	}
+	
+.stdTable {
+	padding: 3px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: bold;
+	color: #000000;
+	background-color: #FFFFFF;
+}
+.stdTableCell {
+	background-color: #f7f5f2;
+}
+.stdTableHeader {
+	background-color: #E9E2D9;
+	font-align: left;
+	font-weight: bold;
+	text-align: left;
+}
+
+p#searchPara {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	}
+input#btnG {
+	/*vertical-align: absmiddle;*/
+	position: relative;
+	top: 2px;
+	}
+p#searchPara > input#btnG {
+	vertical-align: middle;
+	}
+label#siteSearchLabel {
+	position: relative;
+	top: -2px;
+	}
+p#searchPara > label#siteSearchLabel {
+	position: relative;
+	top: 2px;
+	}
+	
+p#researchLinks {
+	border: none; 
+	margin: 10px 0 0 0; 
+	padding: 0; 
+	vertical-align: middle;
+	color: #999999	
+	}
+form#Search > p#researchLinks {
+	margin: 6px 0 0 0;
+	}
+.popupphoto {
+	text-align: left;
+	float: left;
+	margin-right: 10px;
+	border: 1px solid #990000;
+	border-color: #990000;
+}
+
+td#sidebarCell {
+	padding: 0;
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 11px;
+	}
+td#sidebarCell img {
+	margin: 4px 0;
+	}
+td#sidebarCell a:link, td#sidebarCell a:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 11px;
+	}
+td#sidebarCell ul.noindent {
+	margin-top: 1em;
+	margin-left: 15px;
+	padding: 0;
+	padding-right: 2em;	
+	}
+	
+b.QL {
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 10px; 
+	color: #ffffff;
+	background-color: #666666;
+	display: block;
+	padding: 2px 0 2px 20px;
+	}
+	
+div#bql, div.bql {
+	padding: 0 1em 1em 1em;
+	}
+	
+a.more {
+	white-space: nowrap;
+	}
+	
+/* addition for contact page */
+table#contactList td {
+	border: 1px solid #ffffff;
+	}
+td#filemod {
+	line-height: 20px; 
+	background-color: #fff; 
+	text-align: center; 
+	vertical-align: bottom;
+	}
+	
+div.sidebarspacer {
+	margin: 3px 0;
+	text-align: center;
+	}
+b#date {
+	position: absolute;
+	width: 200px;
+	top: 5px;
+	left: 15px;
+	color: #fddf8d;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	}
+/* Added by Barbara McCain   */
+A.intranet:Hover {
+        font-family: Arial, Verdana, Helvetica, sans-serif;
+        font-size: 12px;
+        line-height: 17px;
+        font-style: bold;
+        font-weight: bold; color: #FFFFFF; text-decoration: none;
+        }
+A.intranet {
+        font-family: Arial, Verdana, Helvetica, sans-serif;
+        font-size: 12px;
+        line-height: 17px;
+        font-style: bold;
+        font-weight: bold;
+        color: #FDDF8D;
+        text-decoration: none;
+        }
+
+.profileDate {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: xx-small;
+}
+
+
+/* ADDED NEW STUFF HERE March 21, 2006*/
+
+
+
+
+
+ul.noindent,UL.noindent {margin-left: 0; padding-left: 0;  list-style-type: none; padding: 0; margin: 0;}
+li.noindent,LI.noindent {margin-left: 0; padding-left: 0; background-image: url(http://see.stanford.edu/soe.stanford.edu/uiparts/gold_bullet.gif); background-repeat: no-repeat;  padding-left: 1.6em; background-position: 0 .2em;}
+
+.subMenu {
+	position: absolute; 
+	z-index: 555; 
+	top: 0px; 
+	left: 138px; 
+	width: 163px;
+/*	visibility: hidden; */
+	background-color: #ffffff; 
+	border: 1px solid #cccccc; 
+	padding: 3px;
+	}
+.cloaked {
+	visibility: hidden;
+	display: none;
+	}
+.revealed {
+	visibility: visible;
+	display: block;
+	position: relative; 
+	left: 10px;	
+	border: none;
+	}	
+#leftMenuContainer {
+	/* border: 1px solid gray;*/
+	}
+#leftMenuContainer img {
+	margin-right: 3px;
+	border: none;
+	}
+#leftMenuContainer img.arrow {
+	border: none;
+	}
+a.menusubnav img.indicator {
+	height: 10px;
+	width: 12px; 
+	}
+#menu_vision {
+	position: absolute; 
+	z-index: 555; 
+	top: 0px; 
+	left: 168px; 
+	visibility: hidden;
+	width: 128px;
+	background-color: #ffffff; 
+	border: 1px solid #cccccc;
+	}
+#menu_programs {
+	position: absolute; 
+	z-index: 555; 
+	top: 0px; 
+	left: 168px; 
+	visibility: hidden; 
+	width: 300px;
+	background-color: #ffffff; 
+	border: 1px solid #cccccc;
+	}
+#menu_resources {
+	position: absolute; 
+	z-index: 555; 
+	top: 0px; 
+	left: 168px; 
+	visibility: hidden; 
+	width: 168px;
+	background-color: #ffffff; 
+	border: 1px solid #cccccc;
+	}
+/** hack department **/
+/* added 2005-03-09 (HS) to compensate for IE5.2/Mac positioning bug */
+* html>body #menu_vision {
+	left: 138px; 
+	margin-top: -110px;
+	}	
+* html>body #menu_programs {
+	left: 138px; 
+	margin-top: -110px;
+	}	
+* html>body #menu_resources {
+	left: 138px; 
+	margin-top: -110px;
+	}	
+
+.questionhead {
+	color: #990000;
+	}

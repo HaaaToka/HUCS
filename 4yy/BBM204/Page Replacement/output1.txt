@@ -1,0 +1,19 @@
+Memory4
+FIFO Page Replacement
+Binary Search Tree
+
+Page Fault	 a
+Page Fault	 a c
+          	 a c
+Page Fault	 a c b
+Page Fault	 a c b k
+          	 a c b k
+Page Fault	 d c b k
+Page Fault	 d p b k
+Page Fault	 d p y k
+Page Fault	 d p y b
+          	 d p y b
+Page Fault	 e p y b
+Page Fault	 e t y b
+Page Fault	 e t c b
+11

@@ -1,0 +1,2 @@
+javac Main.java
+java Main users.txt item.txt commands.txt

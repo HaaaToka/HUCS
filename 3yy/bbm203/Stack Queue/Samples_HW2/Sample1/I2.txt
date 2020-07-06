@@ -1,0 +1,21 @@
+20
+A 3 l
+I 3 q
+S 3 G
+A 4 s
+A 2 p
+S 3 G
+S 3 G
+A 1 x
+O G G
+A 3 m
+S 4 G
+I 4 x
+A 1 x
+S 3 G
+S 2 G
+O G G
+O G G
+A 4 l
+A 2 o
+I 1 g

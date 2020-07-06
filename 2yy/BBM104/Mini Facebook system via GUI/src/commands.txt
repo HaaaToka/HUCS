@@ -1,0 +1,59 @@
+﻿ADDFRIEND	ahmet	demet
+ADDFRIEND	ahmet	zeki
+ADDFRIEND	ahmet	selman
+ADDFRIEND	ahmet	murat
+ADDFRIEND	demet	zeki
+ADDFRIEND	demet	utku
+ADDFRIEND	demet	sevda
+ADDFRIEND	demet	necdet
+ADDFRIEND	zeki	demet
+ADDFRIEND	zeki	hakan
+ADDFRIEND	zeki	hamdi
+ADDFRIEND	zeki	aylin
+ADDFRIEND	gizem	demet
+ADDFRIEND	gizem	selman
+ADDFRIEND	gizem	hakan
+ADDFRIEND	gizem	aylin
+ADDFRIEND	gizem	sevda
+ADDFRIEND	gizem	ahmet
+ADDFRIEND	utku	hakan
+ADDFRIEND	utku	murat
+ADDFRIEND	utku	necdet
+ADDFRIEND	hakan	hamdi
+ADDFRIEND	hakan	murat
+ADDFRIEND	selman	gizem
+ADDFRIEND	selman	hakan
+ADDFRIEND	selman	demet
+ADDFRIEND	hamdi	murat
+ADDFRIEND	hamdi	ahmet
+ADDFRIEND	aylin	murat
+ADDFRIEND	sevda	ahmet
+ADDFRIEND	sevda	gizem
+ADDFRIEND	sevda	murat
+ADDFRIEND	murat	necdet
+ADDFRIEND	murat	aylin
+ADDFRIEND	murat	hakan
+ADDFRIEND	necdet	selman
+ADDFRIEND	necdet	murat
+BLOCKFRIEND	selman	ahmet
+BLOCKFRIEND	selman	hamdi
+BLOCKFRIEND	gizem	utku
+BLOCKFRIEND	utku	hakan
+BLOCKFRIEND	zeki	murat
+BLOCKFRIEND	demet	aylin
+BLOCKFRIEND	sevda	murat
+BLOCKFRIEND	necdet	gizem
+BLOCKFRIEND	gizem	hamdi
+BLOCKFRIEND	aylin	selman
+BLOCKFRIEND	aylin	sevda
+BLOCKFRIEND	utku	selman
+BLOCKFRIEND	demet	necdet
+ADDPOST-TEXT	selman	The Senate has confirmed 26 of President Trump’s picks for his Cabinet and other top posts. 	39.8833431	32.7381663	hakan
+ADDPOST-TEXT	selman	5 Years ago ... not much has changed, except I dress more formal for weddings.	79.3431121	92.3123663	hakan
+ADDPOST-IMAGE	selman	Thanks Tram Tran for this amazing photo	12.1833431	223.631533	gizem:hakan	image.png	135<x>250
+ADDPOST-VIDEO	selman	Doctor at center of USA Gymnastics sex abuse scandal left warning signs at Michigan State	82.7333431	51.7363331	gizem:hakan	video1.avi	67
+ADDPOST-IMAGE	selman	Brother-in-law taking awesome pics	12.1833431	223.631533	zeki	image.png	135<x>250
+ADDPOST-TEXT	selman	My nieces and nephew in my mind...	39.8833431	32.7381663	necdet
+ADDPOST-TEXT	demet	Aurora hanging out with Pro York	39.8833431	32.7381663	hamdi:necdet
+ADDPOST-TEXT	demet	Sooo confusing. In Oklahoma homeboy killed 3 with AR-15. 	9.8833431	32.7381663	hamdi:necdet
+ADDPOST-IMAGE	demet	Thanks for this amazing photo	12.1833431	223.631533	utku:sevda	image.png	135<x>250

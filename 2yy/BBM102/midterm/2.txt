@@ -1,0 +1,36 @@
+package com.company;
+
+class Ata {
+    public void m() {
+        System.out.println("Ata - m()");
+    }
+}
+class Alt1 extends Ata {
+    public void m() {
+        System.out.println("Alt1 - m()");
+    }
+}
+class Alt2 extends Ata {
+    public void m() {
+        super.m();
+        System.out.println("Alt2 - m()");
+    }
+}
+class Alt3 extends Ata {
+}
+
+
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        Ata[] dizi=new Ata[4];
+        dizi[0]=new Ata();
+        dizi[1]=new Alt1();
+        dizi[2]=new Alt2();
+        dizi[3]=new Alt3();
+        for(int i=0;i<dizi.length;i++){
+        dizi[i].m();}
+    }
+}

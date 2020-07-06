@@ -1,0 +1,59 @@
+COMMAND IN PROCESS >> ROUTE 0>5 100
+	Time (in min): 23,800
+	Total # of switch changes: 1
+	Route from 0 to 5: 0 1 2 5
+	Command "ROUTE 0>5 100"  has been executed successfully!
+COMMAND IN PROCESS >> BREAK 0>1
+	Command "BREAK 0>1"  has been executed successfully!
+COMMAND IN PROCESS >> ROUTE 0>5 25
+	Time (in min): 51,400
+	Total # of switch changes: 1
+	Route from 0 to 5: 0 7 2 5
+	Command "ROUTE 0>5 25"  has been executed successfully!
+COMMAND IN PROCESS >> BREAK 0>7
+	Command "BREAK 0>7"  has been executed successfully!
+COMMAND IN PROCESS >> ROUTE 0>5 90
+	Time (in min): 27,667
+	Total # of switch changes: 1
+	Route from 0 to 5: 0 4 7 2 5
+	Command "ROUTE 0>5 90"  has been executed successfully!
+COMMAND IN PROCESS >> ROUTE 4>2 62
+	Time (in min): 11,613
+	Total # of switch changes: 0
+	Route from 4 to 2: 4 7 2
+	Command "ROUTE 4>2 62"  has been executed successfully!
+COMMAND IN PROCESS >> MAINTAIN 7
+	Command "MAINTAIN 7"  has been executed successfully!
+COMMAND IN PROCESS >> MAINTAIN 5
+	Command "MAINTAIN 5"  has been executed successfully!
+COMMAND IN PROCESS >> ROUTE 0>5 88
+	No route from 0 to 5 found currently!
+	Command "ROUTE 0>5 88"  has been executed successfully!
+COMMAND IN PROCESS >> ROUTE 4>2 26
+	Time (in min): 87,462
+	Total # of switch changes: 3
+	Route from 4 to 2: 4 0 6 2
+	Command "ROUTE 4>2 26"  has been executed successfully!
+COMMAND IN PROCESS >> LISTROUTESFROM 0
+	Routes from 0: 1 4 6 7
+	Command "LISTROUTESFROM 0"  has been executed successfully!
+COMMAND IN PROCESS >> LISTMAINTAINS
+	Intersections under maintenance: 5 7
+	Command "LISTMAINTAINS"  has been executed successfully!
+COMMAND IN PROCESS >> LISTACTIVERAILS
+	Active Rails: 0>6 1>2 2>5 3>6 4>0 5>2 6>2 7>2
+	Command "LISTACTIVERAILS"  has been executed successfully!
+COMMAND IN PROCESS >> LISTBROKENRAILS
+	Broken rails: 0>1 0>7
+	Command "LISTBROKENRAILS"  has been executed successfully!
+COMMAND IN PROCESS >> LISTCROSSTIMES
+	# of cross times: 0:4 1:1 2:5 4:3 5:3 6:1 7:3
+	Command "LISTCROSSTIMES"  has been executed successfully!
+COMMAND IN PROCESS >> TOTALNUMBEROFJUNCTIONS
+	Total # of junctions: 8
+	Command "TOTALNUMBEROFJUNCTIONS"  has been executed successfully!
+COMMAND IN PROCESS >> TOTALNUMBEROFRAILS
+	Total # of rails: 32
+	Command "TOTALNUMBEROFRAILS"  has been executed successfully!
+COMMAND IN PROCESS >> TERMINATE
+	Unrecognized command "TERMINATE"!

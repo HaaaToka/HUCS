@@ -1,0 +1,14 @@
+BOOK	2	2016	Everything We Keep	Lake Union	Kerry Lonsdale	306
+CDDVD	5	2008	One of the Boys	Katy Perry	One Of The Boys,I Kissed A Girl,Thinking Of You,If You Can Afford Me
+CDDVD	13	2012	Red	Taylor Swift	State Of Grace,Red,I Almost Do
+DESKTOP	1250	Micro-Star International	MSI	220	250	Free-Dos	Intel Core i5	8	750	black
+LAPTOP	3100	AsusTek Computer Inc.	ASUS	220	250	Windows 10 Home	Intel Core i7	16	750	1
+LAPTOP	3400	Apple Inc.	APPLE	220	250	MAC OS	Intel Core i5	8	1000	0
+LAPTOP	1800	Hewlett-Packard Company	HP	220	250	Free-Dos	Intel Core i7	16	300	1
+LAPTOP	1700	AsusTek Computer Inc.	ASUS	220	250	Windows 10 Home	Intel Core i3	8	500	0
+TABLET	90	AsusTek Computer Inc.	ASUS	220	100	Android 4.4 (KitKat)	Qualcomm Quad-core	1	8	9
+TV	900	Royal Philips Electronics of the Netherlands	PHILIPS	200	240	43
+SMARTPHONE	700	Samsung Electronics	SAMSUNG	200	240	Quad HD Super AMOLED
+HAIRCARE	22	Henkel AG & Company	SCHWARZKOPH	1	2019	1000	0
+PERFUME	13	Calvin Klein Inc.	CALVIN KLEIN	0	2025	250	75
+SKINCARE	19	Beiersdorf Global AG.	NIVEA	1	2017	150	1

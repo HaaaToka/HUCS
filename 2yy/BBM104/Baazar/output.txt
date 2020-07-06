@@ -1,0 +1,678 @@
+
+COMMAND TEXT: <ADDCUSTOMER	Cemil	Kerem	kerem@yahoo.com	21.02.1993	100000	kerem1111>
+
+
+COMMAND TEXT: <SHOWCUSTOMER	Leyla	3>
+
+Customer name: Hamza	ID: 3	e-mail: hamza@hacettepe.edu	 Date of Birth: Tue Sep 08 00:00:00 EEST 1987	Status: CLASSIC
+
+COMMAND TEXT: <SHOWCUSTOMERS	Demet>
+
+Customer name: Emre	ID: 1	e-mail: emre@hacettepe.edu	 Date of Birth: Mon Oct 02 00:00:00 EEST 2000	Status: CLASSIC
+Customer name: Meltem	ID: 2	e-mail: meltem@hacettepe.edu	 Date of Birth: Fri Mar 30 00:00:00 EEST 1990	Status: CLASSIC
+Customer name: Hamza	ID: 3	e-mail: hamza@hacettepe.edu	 Date of Birth: Tue Sep 08 00:00:00 EEST 1987	Status: CLASSIC
+Customer name: Taha	ID: 4	e-mail: taha@hacettepe.edu	 Date of Birth: Tue Apr 29 00:00:00 EET 1969	Status: CLASSIC
+Customer name: Furkan	ID: 5	e-mail: furkan@hacettepe.edu	 Date of Birth: Mon Sep 30 00:00:00 EEST 1974	Status: CLASSIC
+Customer name: Kerem	ID: 6	e-mail: kerem@yahoo.com	 Date of Birth: Sun Feb 21 00:00:00 EET 1993	Status: CLASSIC
+
+COMMAND TEXT: <SHOWCUSTOMERS	Ferit>
+
+No admin person named Ferit exists!
+
+COMMAND TEXT: <ADDCUSTOMER	Musa	Ayten	ayten@yahoo.com	05.10.1981	1000	ayten0000>
+
+No admin person named Musa exists!
+
+COMMAND TEXT: <ADDTOCART	7	37>
+
+No customer with ID number 7 exists!
+
+COMMAND TEXT: <ORDER	7	ayten0000>
+
+No customer with ID number 7 exists!
+
+COMMAND TEXT: <SHOWCUSTOMER	Can	4>
+
+Customer name: Taha	ID: 4	e-mail: taha@hacettepe.edu	 Date of Birth: Tue Apr 29 00:00:00 EET 1969	Status: CLASSIC
+
+COMMAND TEXT: <SHOWADMININFO	Can>
+
+----------- Admin info -----------
+Admin name: Can
+Admin e-mail: can@hacettepe.edu
+Admin date of birth: 21.05.1980
+
+COMMAND TEXT: <SHOWADMININFO	Enes>
+
+No admin person named Enes exists!
+
+COMMAND TEXT: <CREATECAMPAIGN	Alper	23.03.2017	01.06.2017	BOOK	25>
+
+
+COMMAND TEXT: <CREATECAMPAIGN	Leyla	21.03.2017	01.09.2017	DEKSTOP	90>
+
+Campaign was not created. Discount rate exceeds maximum rate of 50%.
+
+COMMAND TEXT: <CREATECAMPAIGN	Leyla	21.03.2017	01.09.2017	PERFUME	20>
+
+
+COMMAND TEXT: <SHOWCAMPAIGNS	2>
+
+Active campaigns:
+25% sale of BOOK until 01/06/2017
+20% sale of PERFUME until 01/09/2017
+
+COMMAND TEXT: <ADDTOCART	3	10>
+
+The item CDDVD has been successfully added to your cart.
+
+COMMAND TEXT: <ADDTOCART	3	3>
+
+The item Book has been successfully added to your cart.
+
+COMMAND TEXT: <ADDTOCART	3	5>
+
+The item Book has been successfully added to your cart.
+
+COMMAND TEXT: <ADDTOCART	3	15>
+
+The item Desktop has been successfully added to your cart.
+
+COMMAND TEXT: <ADDTOCART	5	10>
+
+The item CDDVD has been successfully added to your cart.
+
+COMMAND TEXT: <ORDER	3	hamza1234>
+
+Done! Your order will be delivered as soon as possible. Thank you!
+Congratulations! You have been upgraded to a SILVER MEMBER! You have earned a discount of 10% on all purchases.
+You need to spend 2574.5 more TL to become a GOLDEN MEMBER.
+
+COMMAND TEXT: <DEPOSITMONEY	6	210.6>
+
+
+COMMAND TEXT: <CHPASS	1	emre1234	emre12345678>
+
+The password has been successfully changed.
+
+COMMAND TEXT: <EMPTYCART	3>
+
+The cart has been emptied.
+
+COMMAND TEXT: <ORDER	3	hamza1234>
+
+You should add some items to your cart before order request!
+
+COMMAND TEXT: <ADDTOCART	1	15>
+
+The item Desktop has been successfully added to your cart.
+
+COMMAND TEXT: <ADDTOCART	1	2>
+
+The item Book has been successfully added to your cart.
+
+COMMAND TEXT: <ADDTOCART	1	11>
+
+The item Desktop has been successfully added to your cart.
+
+COMMAND TEXT: <ORDER	1	emre12>
+
+Order could not be placed. Invalid password.
+
+COMMAND TEXT: <ORDER	1	emre1234>
+
+Order could not be placed. Invalid password.
+
+COMMAND TEXT: <ORDER	1	emre12345678>
+
+Order could not be placed. Insufficient funds.
+
+COMMAND TEXT: <SHOWORDERS	Emir>
+
+Order History:
+Order date: Fri Mar 31 17:58:07 EET 2017	Customer ID: 3	Total Cost: 2425.5	Number of purchased items: 4
+
+COMMAND TEXT: <SHOWITEMSLOWONSTOCK	Enes	14>
+
+Book : 3
+CDDVD : 4
+Desktop : 4
+Laptop : 5
+Tablet : 2
+TV : 3
+SmartPhone : 3
+HairCare : 2
+Perfume : 3
+SkinCare : 3
+
+COMMAND TEXT: <SHOWVIP	Alper>
+
+
+COMMAND TEXT: <ADDADMIN	Demet	Yavuz	yavuz@gmail.com	16.07.1984	1000	yavuz1>
+
+
+COMMAND TEXT: <SHOWADMINONFO	Yavuz>
+
+
+COMMAND TEXT: <ADDTECH	Yavuz	Kubilay	kubilay@outlook.com	19.04.2001	500	1>
+
+
+COMMAND TEXT: <ADDITEM	Kubilay	LAPTOP:1250:Dell Inc.:DELL:220:250:Windows 10 Home:Intel Core i7:8:250:1>
+
+
+COMMAND TEXT: <ADDTOCART	6	37>
+
+The item Laptop has been successfully added to your cart.
+
+COMMAND TEXT: <ADDTOCART	6	25>
+
+The item TV has been successfully added to your cart.
+
+COMMAND TEXT: <ORDER	6	kerem1111>
+
+Done! Your order will be delivered as soon as possible. Thank you!
+Congratulations! You have been upgraded to a GOLDEN MEMBER! You have earned a permanent discount of 15% on all purchases.
+
+COMMAND TEXT: <SHOWORDERS	Emir>
+
+Order History:
+Order date: Fri Mar 31 17:58:07 EET 2017	Customer ID: 3	Total Cost: 2425.5	Number of purchased items: 4
+Order date: Fri Mar 31 17:58:07 EET 2017	Customer ID: 6	Total Cost: 13250.0	Number of purchased items: 2
+
+COMMAND TEXT: <SHOWCUSTOMERS	Demet>
+
+Customer name: Emre	ID: 1	e-mail: emre@hacettepe.edu	 Date of Birth: Mon Oct 02 00:00:00 EEST 2000	Status: CLASSIC
+Customer name: Meltem	ID: 2	e-mail: meltem@hacettepe.edu	 Date of Birth: Fri Mar 30 00:00:00 EEST 1990	Status: CLASSIC
+Customer name: Hamza	ID: 3	e-mail: hamza@hacettepe.edu	 Date of Birth: Tue Sep 08 00:00:00 EEST 1987	Status: SILVER
+Customer name: Taha	ID: 4	e-mail: taha@hacettepe.edu	 Date of Birth: Tue Apr 29 00:00:00 EET 1969	Status: CLASSIC
+Customer name: Furkan	ID: 5	e-mail: furkan@hacettepe.edu	 Date of Birth: Mon Sep 30 00:00:00 EEST 1974	Status: CLASSIC
+Customer name: Kerem	ID: 6	e-mail: kerem@yahoo.com	 Date of Birth: Sun Feb 21 00:00:00 EET 1993	Status: GOLDEN
+
+COMMAND TEXT: <LISTITEM	Kubilay>
+
+-----------------------
+Type: Book
+Item ID: 1
+Price: 2.0 $
+Release Date: 2016
+Title: Everything We Keep
+Publisher: Lake Union
+Author: Kerry Lonsdale 
+Page: 306 pages
+-----------------------
+Type: Book
+Item ID: 2
+Price: 25.0 $
+Release Date: 1992
+Title: Ulysses
+Publisher: Modern Library
+Author: James Joyce 
+Page: 844 pages
+-----------------------
+Type: Book
+Item ID: 3
+Price: 3.0 $
+Release Date: 2006
+Title: Nick and Norah's Infinite Playlist
+Publisher: Alfred Knopf Books
+Author: Rachel Cohn, David Levithan 
+Page: 183 pages
+-----------------------
+Type: Book
+Item ID: 4
+Price: 4.0 $
+Release Date: 1960
+Title: To Kill a Mockingbird
+Publisher: J. B. Lippincott & Co.
+Author: Harper Lee 
+Page: 281 pages
+-----------------------
+Type: Book
+Item ID: 5
+Price: 7.0 $
+Release Date: 2004
+Title: Sorcery and Cecelia or The Enchanted Chocolate Pot
+Publisher: HMH Books
+Author: Patricia C. Wrede, Caroline Steverme, Ayn Rand 
+Page: 336 pages
+-----------------------
+Type: CDDVD
+Item ID: 6
+Price: 10.0 $
+Release Date: 2016
+Title: Live North America
+Songs: Grinder, Our Love, When My Train Pulls In, Church 
+Composer: Gary Clark Jr.
+-----------------------
+Type: CDDVD
+Item ID: 7
+Price: 5.0 $
+Release Date: 2008
+Title: One of the Boys
+Songs: One Of The Boys, I Kissed A Girl, Thinking Of You, If You Can Afford Me 
+Composer: Katy Perry
+-----------------------
+Type: CDDVD
+Item ID: 8
+Price: 13.0 $
+Release Date: 2012
+Title: Red
+Songs: State Of Grace, Red, I Almost Do 
+Composer: Taylor Swift
+-----------------------
+Type: CDDVD
+Item ID: 9
+Price: 21.0 $
+Release Date: 1959
+Title: Kind of Blue
+Songs: So What, Freddy Freeloader 
+Composer: Miles Davis
+-----------------------
+Type: CDDVD
+Item ID: 10
+Price: 18.0 $
+Release Date: 1957
+Title: The Great Ray Charles
+Songs: The Ray, The Man I Love, Hornful Soul 
+Composer: Ray Charles
+-----------------------
+Type: Desktop
+Item ID: 11
+Price: 1250.0 $
+Manufacturer: Micro-Star International
+Brand: MSI
+Max Volt: 220 V.
+Max Watt: 250 W.
+Operating System: Free-Dos
+CPU Type: Intel Core i5
+RAM Capacity: 8 GB.
+HDD Capacity: 750 GB.
+Box Color: black
+-----------------------
+Type: Desktop
+Item ID: 12
+Price: 1430.0 $
+Manufacturer: AsusTek Computer Inc.
+Brand: ASUS
+Max Volt: 220 V.
+Max Watt: 250 W.
+Operating System: Windows 10 Home
+CPU Type: Intel Core i7
+RAM Capacity: 16 GB.
+HDD Capacity: 1000 GB.
+Box Color: white
+-----------------------
+Type: Desktop
+Item ID: 13
+Price: 1000.0 $
+Manufacturer: AsusTek Computer Inc.
+Brand: ASUS
+Max Volt: 220 V.
+Max Watt: 250 W.
+Operating System: Free-Dos
+CPU Type: Intel Core i3
+RAM Capacity: 8 GB.
+HDD Capacity: 500 GB.
+Box Color: red
+-----------------------
+Type: Desktop
+Item ID: 14
+Price: 2100.0 $
+Manufacturer: Dell Inc.
+Brand: DELL
+Max Volt: 220 V.
+Max Watt: 250 W.
+Operating System: Windows 10 Home
+CPU Type: Intel Core i7
+RAM Capacity: 16 GB.
+HDD Capacity: 2000 GB.
+Box Color: black
+-----------------------
+Type: Desktop
+Item ID: 15
+Price: 2400.0 $
+Manufacturer: Apple Inc.
+Brand: APPLE
+Max Volt: 220 V.
+Max Watt: 250 W.
+Operating System: MAC OS X Yosemite
+CPU Type: Intel Core i5
+RAM Capacity: 8 GB.
+HDD Capacity: 500 GB.
+Box Color: white
+-----------------------
+Type: Laptop
+Item ID: 16
+Price: 3100.0 $
+Manufacturer: AsusTek Computer Inc.
+Brand: ASUS
+Max Volt: 220 V.
+Max Watt: 250 W.
+Operating System: Windows 10 Home
+CPU Type: Intel Core i7
+RAM Capacity: 16 GB.
+HDD Capacity: 750 GB.
+HDMI support: Yes
+-----------------------
+Type: Laptop
+Item ID: 17
+Price: 3400.0 $
+Manufacturer: Apple Inc.
+Brand: APPLE
+Max Volt: 220 V.
+Max Watt: 250 W.
+Operating System: MAC OS
+CPU Type: Intel Core i5
+RAM Capacity: 8 GB.
+HDD Capacity: 1000 GB.
+HDMI support: No
+-----------------------
+Type: Laptop
+Item ID: 18
+Price: 1800.0 $
+Manufacturer: Hewlett-Packard Company
+Brand: HP
+Max Volt: 220 V.
+Max Watt: 250 W.
+Operating System: Free-Dos
+CPU Type: Intel Core i7
+RAM Capacity: 16 GB.
+HDD Capacity: 300 GB.
+HDMI support: Yes
+-----------------------
+Type: Laptop
+Item ID: 19
+Price: 1700.0 $
+Manufacturer: AsusTek Computer Inc.
+Brand: ASUS
+Max Volt: 220 V.
+Max Watt: 250 W.
+Operating System: Windows 10 Home
+CPU Type: Intel Core i3
+RAM Capacity: 8 GB.
+HDD Capacity: 500 GB.
+HDMI support: No
+-----------------------
+Type: Laptop
+Item ID: 20
+Price: 2050.0 $
+Manufacturer: Dell Inc.
+Brand: DELL
+Max Volt: 220 V.
+Max Watt: 250 W.
+Operating System: Free-Dos
+CPU Type: Intel Core i7
+RAM Capacity: 16 GB.
+HDD Capacity: 400 GB.
+HDMI support: Yes
+-----------------------
+Type: Tablet
+Item ID: 21
+Price: 90.0 $
+Manufacturer: AsusTek Computer Inc.
+Brand: ASUS
+Max Volt: 220 V.
+Max Watt: 100 W.
+Operating System: Android 4.4 (KitKat)
+CPU Type: Qualcomm Quad-core
+RAM Capacity: 1 GB.
+HDD Capacity: 8 GB.
+Dimension: 9 in.
+-----------------------
+Type: Tablet
+Item ID: 22
+Price: 135.0 $
+Manufacturer: Samsung Electronics
+Brand: SAMSUNG
+Max Volt: 220 V.
+Max Watt: 100 W.
+Operating System: Android 5.0.2 (Lollipop)
+CPU Type: Samsung Exynos
+RAM Capacity: 3 GB.
+HDD Capacity: 32 GB.
+Dimension: 11 in.
+-----------------------
+Type: TV
+Item ID: 23
+Price: 900.0 $
+Manufacturer: Royal Philips Electronics of the Netherlands
+Brand: PHILIPS
+Max Volt: 200 V.
+Max Watt: 240 W.
+Screen size: 43"
+-----------------------
+Type: TV
+Item ID: 24
+Price: 1500.0 $
+Manufacturer: Samsung Electronics
+Brand: SAMSUNG
+Max Volt: 200 V.
+Max Watt: 240 W.
+Screen size: 40"
+-----------------------
+Type: TV
+Item ID: 25
+Price: 12000.0 $
+Manufacturer: Royal Philips Electronics of the Netherlands
+Brand: PHILIPS
+Max Volt: 200 V.
+Max Watt: 240 W.
+Screen size: 74"
+-----------------------
+Type: SmartPhone
+Item ID: 26
+Price: 700.0 $
+Manufacturer: Samsung Electronics
+Brand: SAMSUNG
+Max Volt: 200 V.
+Max Watt: 240 W.
+Screen Type: Quad HD Super AMOLED
+-----------------------
+Type: SmartPhone
+Item ID: 27
+Price: 600.0 $
+Manufacturer: Sony Electronics Manufacturing
+Brand: SONY
+Max Volt: 200 V.
+Max Watt: 240 W.
+Screen Type: Super AMOLED
+-----------------------
+Type: SmartPhone
+Item ID: 28
+Price: 1100.0 $
+Manufacturer: Apple Inc.
+Brand: APPLE
+Max Volt: 200 V.
+Max Watt: 240 W.
+Screen Type: IPS LCD
+-----------------------
+Type: HairCare
+Item ID: 29
+Price: 22.0 $
+Manufacturer: Henkel AG & Company
+Brand: SCHWARZKOPH
+Organic: Yes
+Expiration Date: 2019
+Weight: 1000 g.
+Medicated: No
+-----------------------
+Type: HairCare
+Item ID: 30
+Price: 26.0 $
+Manufacturer: Goldwell Manufacturing Services
+Brand: GOLDWELL
+Organic: Yes
+Expiration Date: 2021
+Weight: 750 g.
+Medicated: Yes
+-----------------------
+Type: Perfume
+Item ID: 31
+Price: 13.0 $
+Manufacturer: Calvin Klein Inc.
+Brand: CALVIN KLEIN
+Organic: No
+Expiration Date: 2025
+Weight: 250 g.
+Lasting Duration: 75 min.
+-----------------------
+Type: Perfume
+Item ID: 32
+Price: 17.0 $
+Manufacturer: Hugo Boss Group
+Brand: HUGO BOSS
+Organic: No
+Expiration Date: 2021
+Weight: 330 g.
+Lasting Duration: 110 min.
+-----------------------
+Type: Perfume
+Item ID: 33
+Price: 11.0 $
+Manufacturer: Calvin Klein Inc.
+Brand: CALVIN KLEIN
+Organic: No
+Expiration Date: 2019
+Weight: 500 g.
+Lasting Duration: 30 min.
+-----------------------
+Type: SkinCare
+Item ID: 34
+Price: 19.0 $
+Manufacturer: Beiersdorf Global AG.
+Brand: NIVEA
+Organic: Yes
+Expiration Date: 2017
+Weight: 150 g.
+Baby Sensitive: Yes
+-----------------------
+Type: SkinCare
+Item ID: 35
+Price: 13.0 $
+Manufacturer: Clinique Laboratories
+Brand: CLINIQUE
+Organic: No
+Expiration Date: 2025
+Weight: 750 g.
+Baby Sensitive: Yes
+-----------------------
+Type: SkinCare
+Item ID: 36
+Price: 9.0 $
+Manufacturer: Beiersdorf Global AG.
+Brand: NIVEA
+Organic: No
+Expiration Date: 2022
+Weight: 400 g.
+Baby Sensitive: No
+-----------------------
+Type: Laptop
+Item ID: 37
+Price: 1250.0 $
+Manufacturer: Dell Inc.
+Brand: DELL
+Max Volt: 220 V.
+Max Watt: 250 W.
+Operating System: Windows 10 Home
+CPU Type: Intel Core i7
+RAM Capacity: 8 GB.
+HDD Capacity: 250 GB.
+HDMI support: Yes
+
+COMMAND TEXT: <DISPITEMSOF	Kubilay	BOOK:HAIRCARE:PERFUME>
+
+-----------------------
+Type: Book
+Item ID: 1
+Price: 2.0 $
+Release Date: 2016
+Title: Everything We Keep
+Publisher: Lake Union
+Author: Kerry Lonsdale 
+Page: 306 pages
+-----------------------
+Type: Book
+Item ID: 2
+Price: 25.0 $
+Release Date: 1992
+Title: Ulysses
+Publisher: Modern Library
+Author: James Joyce 
+Page: 844 pages
+-----------------------
+Type: Book
+Item ID: 3
+Price: 3.0 $
+Release Date: 2006
+Title: Nick and Norah's Infinite Playlist
+Publisher: Alfred Knopf Books
+Author: Rachel Cohn, David Levithan 
+Page: 183 pages
+-----------------------
+Type: Book
+Item ID: 4
+Price: 4.0 $
+Release Date: 1960
+Title: To Kill a Mockingbird
+Publisher: J. B. Lippincott & Co.
+Author: Harper Lee 
+Page: 281 pages
+-----------------------
+Type: Book
+Item ID: 5
+Price: 7.0 $
+Release Date: 2004
+Title: Sorcery and Cecelia or The Enchanted Chocolate Pot
+Publisher: HMH Books
+Author: Patricia C. Wrede, Caroline Steverme, Ayn Rand 
+Page: 336 pages
+-----------------------
+Type: HairCare
+Item ID: 29
+Price: 22.0 $
+Manufacturer: Henkel AG & Company
+Brand: SCHWARZKOPH
+Organic: Yes
+Expiration Date: 2019
+Weight: 1000 g.
+Medicated: No
+-----------------------
+Type: HairCare
+Item ID: 30
+Price: 26.0 $
+Manufacturer: Goldwell Manufacturing Services
+Brand: GOLDWELL
+Organic: Yes
+Expiration Date: 2021
+Weight: 750 g.
+Medicated: Yes
+-----------------------
+Type: Perfume
+Item ID: 31
+Price: 13.0 $
+Manufacturer: Calvin Klein Inc.
+Brand: CALVIN KLEIN
+Organic: No
+Expiration Date: 2025
+Weight: 250 g.
+Lasting Duration: 75 min.
+-----------------------
+Type: Perfume
+Item ID: 32
+Price: 17.0 $
+Manufacturer: Hugo Boss Group
+Brand: HUGO BOSS
+Organic: No
+Expiration Date: 2021
+Weight: 330 g.
+Lasting Duration: 110 min.
+-----------------------
+Type: Perfume
+Item ID: 33
+Price: 11.0 $
+Manufacturer: Calvin Klein Inc.
+Brand: CALVIN KLEIN
+Organic: No
+Expiration Date: 2019
+Weight: 500 g.
+Lasting Duration: 30 min.

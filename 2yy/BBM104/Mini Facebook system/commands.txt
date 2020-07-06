@@ -1,0 +1,34 @@
+ADDUSER	Adnan	adnan	adnan1	01/01/1991	Selcuk Universitesi
+REMOVEUSER	1
+SIGNIN	cemil	cemil1
+SIGNIN	adnan	adnan1
+LISTUSERS
+UPDATEPROFILE	Adnan	07/01/1991	Gazi University
+CHPASS	adnan123	adnan1234
+CHPASS	adnan1	adnan123
+ADDFRIEND	ahmet
+ADDFRIEND	demet
+ADDFRIEND	demet
+ADDFRIEND	gizem
+ADDFRIEND	utku
+ADDFRIEND	ziya
+REMOVEFRIEND	zeki
+REMOVEFRIEND	ziya
+REMOVEFRIEND	utku
+LISTFRIENDS
+ADDPOST-TEXT	This is my 1st text post	39.2	32.81	ahmet
+ADDPOST-IMAGE	This is my 1st image post	37.87	32.46	demet:gizem	image.png	135x250
+ADDPOST-VIDEO	This is my 1st video post	40.87	29.24	utku:gizem	myvideo.avi	8
+ADDPOST-TEXT	This is my 2nd text post	38.35	33.1	demet:gizem:utku
+REMOVELASTPOST
+SHOWPOSTS	adnan
+BLOCK	demet
+BLOCK	gizem
+BLOCK	ahmet
+SHOWBLOCKEDFRIENDS
+UNBLOCK	ziya
+UNBLOCK	gizem
+UNBLOCK	gizem
+SHOWBLOCKEDFRIENDS
+SHOWBLOCKEDUSERS
+SIGNOUT

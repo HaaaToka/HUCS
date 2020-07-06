@@ -1,0 +1,36 @@
+BOOK	2	2016	Everything We Keep	Lake Union	Kerry Lonsdale	306				
+BOOK	25	1992	Ulysses	Modern Library	James Joyce	844				
+BOOK	3	2006	Nick and Norah's Infinite Playlist	Alfred Knopf Books	Rachel Cohn,David Levithan	183				
+BOOK	4	1960	To Kill a Mockingbird	J. B. Lippincott & Co.	Harper Lee	281				
+BOOK	7	2004	Sorcery and Cecelia or The Enchanted Chocolate Pot	HMH Books	Patricia C. Wrede,Caroline Steverme,Ayn Rand	336				
+CDDVD	10	2016	Live North America	Gary Clark Jr.	Grinder,Our Love,When My Train Pulls In,Church
+CDDVD	5	2008	One of the Boys	Katy Perry	One Of The Boys,I Kissed A Girl,Thinking Of You,If You Can Afford Me
+CDDVD	13	2012	Red	Taylor Swift	State Of Grace,Red,I Almost Do
+CDDVD	21	1959	Kind of Blue	Miles Davis	So What,Freddy Freeloader
+CDDVD	18	1957	The Great Ray Charles	Ray Charles	The Ray,The Man I Love,Hornful Soul
+DESKTOP	1250	Micro-Star International	MSI	220	250	Free-Dos	Intel Core i5	8	750	black
+DESKTOP	1430	AsusTek Computer Inc.	ASUS	220	250	Windows 10 Home	Intel Core i7	16	1000	white
+DESKTOP	1000	AsusTek Computer Inc.	ASUS	220	250	Free-Dos	Intel Core i3	8	500	red
+DESKTOP	2100	Dell Inc.	DELL	220	250	Windows 10 Home	Intel Core i7	16	2000	black
+DESKTOP	2400	Apple Inc.	APPLE	220	250	MAC OS X Yosemite	Intel Core i5	8	500	white
+LAPTOP	3100	AsusTek Computer Inc.	ASUS	220	250	Windows 10 Home	Intel Core i7	16	750	1
+LAPTOP	3400	Apple Inc.	APPLE	220	250	MAC OS	Intel Core i5	8	1000	0
+LAPTOP	1800	Hewlett-Packard Company	HP	220	250	Free-Dos	Intel Core i7	16	300	1
+LAPTOP	1700	AsusTek Computer Inc.	ASUS	220	250	Windows 10 Home	Intel Core i3	8	500	0
+LAPTOP	2050	Dell Inc.	DELL	220	250	Free-Dos	Intel Core i7	16	400	1
+TABLET	90	AsusTek Computer Inc.	ASUS	220	100	Android 4.4 (KitKat)	Qualcomm Quad-core	1	8	9
+TABLET	135	Samsung Electronics	SAMSUNG	220	100	Android 5.0.2 (Lollipop)	Samsung Exynos	3	32	11
+TV	900	Royal Philips Electronics of the Netherlands	PHILIPS	200	240	43				
+TV	1500	Samsung Electronics	SAMSUNG	200	240	40				
+TV	12000	Royal Philips Electronics of the Netherlands	PHILIPS	200	240	74				
+SMARTPHONE	700	Samsung Electronics	SAMSUNG	200	240	Quad HD Super AMOLED				
+SMARTPHONE	600	Sony Electronics Manufacturing	SONY	200	240	Super AMOLED				
+SMARTPHONE	1100	Apple Inc.	APPLE	200	240	IPS LCD				
+HAIRCARE	22	Henkel AG & Company	SCHWARZKOPH	1	2019	1000	0			
+HAIRCARE	26	Goldwell Manufacturing Services	GOLDWELL	1	2021	750	1			
+PERFUME	13	Calvin Klein Inc.	CALVIN KLEIN	0	2025	250	75			
+PERFUME	17	Hugo Boss Group	HUGO BOSS	0	2021	330	110			
+PERFUME	11	Calvin Klein Inc.	CALVIN KLEIN	0	2019	500	30			
+SKINCARE	19	Beiersdorf Global AG.	NIVEA	1	2017	150	1			
+SKINCARE	13	Clinique Laboratories	CLINIQUE	0	2025	750	1			
+SKINCARE	9	Beiersdorf Global AG.	NIVEA	0	2022	400	0			

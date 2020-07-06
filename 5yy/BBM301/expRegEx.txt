@@ -1,0 +1,10 @@
+https://www.cas.mcmaster.ca/~carette/SE3M04/2004/answers.html
+
+[Hard] Give the BNF for the set of all strings on alphabet {a,b,c} that start with 2 a's, always contain accb as a substring, and ends with b ?
+(aa(a|b|c)*accb(a|b|c)*b | aacb(a|b|c)*b | aa(a|b|c)*accb | aaccb) 
+or 
+aa((a|b|c)*a)?ccb((a|b|c)*b)?
+
+[Easy] Give the BNF for the set of all strings on alphabet {a,b,c} that start with 2 b's, always contain accb as a substring, and ends with a ?
+(bb(a|b|c)*accb(a|b|c)*a
+

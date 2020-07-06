@@ -1,0 +1,14 @@
+S -> NP VP
+NP -> N
+NP -> DT N
+VP -> V ADVP
+VP -> V
+ADVP -> ADV
+DT -> the
+N -> rain
+N -> rains
+V -> rain
+V -> rains
+ADV -> down
+
+the rain rains down
