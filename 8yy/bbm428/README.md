@@ -1,0 +1,1 @@
+buradaki sorulardan rasgelete soruyor
