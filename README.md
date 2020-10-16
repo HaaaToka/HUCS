@@ -1,4 +1,5 @@
 # HUCS
 Hacettepe University Computer Science 4 Year Note Collection
 
-Open a PR to add new notes/exams
+## Knowledge is power. Knowledge shared is power multiplied.
+Don't be shy. Open a PR to add new notes/exams
