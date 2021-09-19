@@ -1,0 +1,5 @@
+#Apache_web_server 
+iptables -F
+iptables -A INPUT -s 93.101.30.55 -p tcp -m multiport --dports 80, 443, 8005, 8080, 8009 -m state --state NEW,ESTABLISHED -j ACCEPT
+iptables -A OUTPUT -d 93.101.30.55 -p tcp -m multiport --dports 80, 443, 8005, 8080, 8009 -m state --state ESTABLISHED -j ACCEPT
+iptables-save

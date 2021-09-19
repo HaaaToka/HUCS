@@ -1,0 +1,15 @@
+#computer1
+iptables -F
+iptables -A INPUT -s 192.168.14.2 -p icmp --icmp-type echo-reply -j ACCEPT
+iptables -A OUTPUT -d 192.168.14.2 -p icmp --icmp-type echo-request -j ACCEPT
+
+
+#computer3
+iptables -A INPUT -s 192.168.6.2 -p icmp --icmp-type echo-request -j ACCEPT 
+iptables -A OUTPUT -d 192.168.6.2 -p icmp --icmp-type echo-reply -j ACCEPT
+
+
+#firewall
+iptables -A FORWARD -s 192.168.14.2 -i eth3 -o eth2 -d 192.168.6.2 -j ACCEPT 
+iptables -A FORWARD -s 192.168.6.2 -i eth2 -o eth3 -d 192.168.14.2 -j ACCEPT
+iptables-save

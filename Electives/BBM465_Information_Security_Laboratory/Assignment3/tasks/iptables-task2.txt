@@ -1,0 +1,23 @@
+#computer3
+iptables -F 
+ipset -N LAN1 iphash
+ipset -A LAN1 192.168.14.0/24
+iptables -A INPUT -m set --match-set LAN1 src -p icmp --icmp-type echo-reply -j ACCEPT
+iptables -A OUTPUT -m set --match-set LAN1 dst -p icmp --icmp-type echo-request -j ACCEPT
+
+
+#LAN1_computer3
+ipset -N computer3 iphash
+ipset -A computer3 192.168.14.2
+iptables -A INPUT -m set --match-set computer3 src -p icmp --icmp-type echo-request -j ACCEPT
+iptables -A OUTPUT -m set --match-set computer3 dst -p icmp --icmp-type echo-reply -j ACCEPT
+
+
+#firewall
+ipset -N LAN1 iphash
+ipset -A LAN1 192.168.14.0/24
+ipset -N computer3 iphash
+ipset -A computer3 192.168.14.2
+iptables -A FORWARD -m set --match-set computer3 src -i eth3 -o eth3 -m set --match-set LAN1 dst -j ACCEPT
+iptables -A FORWARD -m set --match-set LAN1 src -i eth3 -o eth3 -m set --match-set computer3 dst -j ACCEPT
+iptables-save
